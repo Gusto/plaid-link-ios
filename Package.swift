@@ -12,7 +12,7 @@ let package = Package(
   targets: [
     .target(
       name: "LinkKit",
-      path: "LinkKit.framework"
+      dependencies: []
     ),
   ]
 )
