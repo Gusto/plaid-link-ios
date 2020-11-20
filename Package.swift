@@ -10,7 +10,7 @@ let package = Package(
     ),
   ],
   targets: [
-    .binaryTarget(
+    .target(
       name: "LinkKit",
       path: "LinkKit.framework"
     ),
